@@ -1,0 +1,54 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{\numberline {1}Objectif du cours}{3}{section.1}%
+\contentsline {section}{\numberline {2}Cadre probabiliste et notations}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Espace de travail}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Variables aléatoires, réalisations et convention d'indices}{4}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Génération comme transport de mesures}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Flot déterministe et théorème de Cauchy--Lipschitz}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Dérivation heuristique par bilan de flux}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Équation de continuité (formulation forte)}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Formulation faible}{6}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Transport optimal et formule de Benamou--Brenier}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Problème de Monge--Kantorovich}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Formulation dynamique de Benamou--Brenier}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Théorème de Brenier et caractérisation du transport optimal quadratique}{8}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Méthode classique : les \emph {Continuous Normalizing Flows}}{8}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Modèle et vraisemblance exacte}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Formule de changement de variables instantanée}{9}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Coût de l'entraînement par maximum de vraisemblance}{9}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Construction des chemins de probabilité conditionnels}{10}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Couplage entre source et cible}{10}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Chemin de probabilité conditionnel}{10}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Vitesse conditionnelle}{11}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Champ de vitesse marginal et théorème de marginalisation}{11}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Schedules d'interpolation gaussienne}{12}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Schedule linéaire (rectified flow)}{12}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Schedule cosinus}{12}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Cadre gaussien général : schedules \textit {variance preserving} et \textit {variance exploding}}{13}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Analyse de covariance}{13}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Objectif d'apprentissage : flow matching}{13}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Risque quadratique conditionnel}{13}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Théorème de régression et équivalence des minimiseurs}{14}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Transport optimal et flow matching}{15}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Couplages par transport optimal en minibatch (OT-CFM)}{15}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Optimal Flow Matching : un flot rectiligne exact en une étape (OFM)}{16}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Génération par intégration numérique}{17}{section.10}%
+\contentsline {subsection}{\numberline {10.1}ODE de génération et erreur de discrétisation}{17}{subsection.10.1}%
+\contentsline {section}{\numberline {11}Exemple 1 : distribution 2D \texttt {make\_moons}}{18}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Construction du dataset}{18}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Code minimal}{18}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Schéma du modèle et sortie du notebook}{20}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Variante OT-CFM sur \texttt {make\_moons} : comparaison des vecteurs}{20}{subsection.11.4}%
+\contentsline {section}{\numberline {12}Exemple 2 : MNIST avec U-Net}{20}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Passage aux images}{20}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Interpolation utilisée}{21}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}Boucle d'entraînement}{21}{subsection.12.3}%
+\contentsline {subsection}{\numberline {12.4}Schéma du U-Net et sortie du notebook}{22}{subsection.12.4}%
+\contentsline {subsection}{\numberline {12.5}Variante OT-CFM sur MNIST : comparaison des vecteurs en espace image}{23}{subsection.12.5}%
+\contentsline {section}{\numberline {13}Comparaison expérimentale : CFM contre OT-CFM}{23}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Rectitude des trajectoires et énergie cinétique sur \texttt {make\_moons}}{25}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}Qualité de génération en fonction du nombre de pas (NFE)}{25}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}Sur MNIST : qualité visuelle à faible NFE}{27}{subsection.13.3}%
+\contentsline {section}{\numberline {14}Résumé conceptuel}{27}{section.14}%
+\contentsline {section}{\numberline {15}Exercices}{29}{section.15}%
+\contentsline {section}{\numberline {16}Ouverture}{30}{section.16}%
